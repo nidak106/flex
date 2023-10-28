@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: #2ca67b;
+    font-size: 50px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+main{
+display: flex;
+border: 1px solid;
+height:calc(100vh - 10px);
+align-items: center;
+justify-content: center;
+
+}
+.heroimg{
+max-width: 570px;
+height: auto;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(6, 140, 109);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+}
+
+.login-btn,
+.signup-btn,
+.cta-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(70, 188, 135);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-btn {
+    background-color: #32cc96;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.step-icon {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
