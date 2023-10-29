@@ -9,6 +9,9 @@ h1{
     color: #2ca67b;
     font-size: 50px;
 }
+p{
+  color: #0c442b;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -39,8 +42,6 @@ nav a {
     color: #333;
     margin: 0 15px;
 }
-
-.login-btn,
 .signup-btn,
 .cta-btn {
     padding: 10px 20px;
@@ -50,13 +51,31 @@ nav a {
     border-radius: 5px;
     cursor: pointer;
 }
+.login-btn {
+  background-color: #248e47; /* Set the initial background color of the button */
+  color: #ffffff; /* Set the text color of the button */
+  border: none; /* Remove the border */
+  padding: 10px 20px; /* Add padding to the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  transition: background-color 0.3s ease; /* Add smooth transition effect to background color changes */
+}
+.login-btn:hover {
+color: #b2e9d6;
+}
 
 .cta-btn {
+  margin-right: 10px;
     background-color: #32cc96;
 }
+.usman{
+  text-align: center;
+  height: 300px; /* Set the desired height for the container */
+  line-height: 300px; /* Should match the height of the container */
+}
 .image-container {
+  display: flex;
     width: 100%;
-    text-align: center; /* Aligns images to the center */
+    align-items: center;/* Aligns images to the center */
   }
   
   .image-container img {
@@ -98,6 +117,27 @@ nav a {
   .button:hover {
     background-color: #29b971;
   }
+  .mama{
+    text-align: center;
+    line-height: 300px;
+    height: 300px;
+  }
+  .rizwan{
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+  }
+  .nida {
+    text-align: center;
+    height: 300px; /* Set the desired height for the container */
+    line-height: 300px; /* Should match the height of the container */
+  }
+  .salwa{
+    text-align: center;
+    height: 300px; /* Set the desired height for the container */
+    line-height: 300px; /* Should match the height of the container */
+  }
+  
   .lists-container {
     display: flex;
     font-size: large";
@@ -109,7 +149,7 @@ nav a {
   }
   
   .list li {
-    font-size: 18px;
+    font-size: 28px;
     margin: 5px 0;
     cursor: pointer;
     transition: color 0.3s ease, text-shadow 0.3s ease;
